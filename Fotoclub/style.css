@@ -1,0 +1,37 @@
+/*
+Theme Name:     Fotoclub
+Theme URI:      http://photosite.de/wordpress-theme/fotoclub
+Description:    A child theme customize to meet the need of the local photoclub
+Author:         Mario Lischka
+Author URI:     http://www.photosite.de/
+Template:       esplanade
+Version:        0.2.0
+
+License: GNU General Public License v2.0
+License URI: license.txt
+*/
+@import url("../esplanade/style.css");
+
+@font-face {
+	font-family: 'Allura';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Allura'), local('Allura-Regular'),
+		url(http://themes.googleusercontent.com/static/fonts/allura/v1/ExiT4hKozv4E-LiOi2vvJA.woff)
+		format('woff');
+}
+
+#site-description {
+	color: #f00000;
+	font-size: 20px;
+	font-family: 'Allura', cursive;
+}
+
+#header-image {
+	display: block;
+	max-width: 99.1%;
+	padding: 0.45%;
+	margin-bottom: 1.76%;
+	box-shadow: 0 0 0px #999;
+	background: #e9e9e9;
+}
