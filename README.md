@@ -1,0 +1,2 @@
+fotoclub.wp-theme
+=================
